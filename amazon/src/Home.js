@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import Product from './Product';
 
 function Home() {
     return (
@@ -23,6 +24,89 @@ function Home() {
                 </div>
                 <div className="home_main">
                     <img className="home_mainImg" src="./mainimg.jpg" />
+                </div>
+            </div>
+            
+            <div className="prod_area">
+                <div className="prod_row">
+                    <Product 
+                    title="CRUNCHY CORN : BLUE"
+                    price={5000}
+                    image="./pd01.png"
+                    rating={4}
+                    />
+                </div>
+                <div className="prod_row">
+                    <Product 
+                    title="CRUNCHY CORN : PURPLE"
+                    price={5000}
+                    image="./pd02.png"
+                    rating={3}
+                    />
+                </div>
+                <div className="prod_row">
+                    <Product 
+                    title="CRUNCHY CORN : PINK"
+                    price={5000}
+                    image="./pd03.png"
+                    rating={4}
+                    />
+                </div>
+                <div className="prod_row">
+                <Product 
+                    title="EDAMAME : SEA SALT"
+                    price={8000}
+                    image="./pd04.png"
+                    rating={2}
+                    />
+                </div>
+                <div className="prod_row">
+                <Product 
+                    title="MIGHTY LIL' LENTILS"
+                    price={7000}
+                    image="./pd05.png"
+                    rating={3}
+                    />
+                </div>
+                <div className="prod_row">
+                    <Product 
+                    title="CRUNCHY CORN : BLUE"
+                    price={5000}
+                    image="./pd01.png"
+                    rating={4}
+                    />
+                </div>
+                <div className="prod_row">
+                    <Product 
+                    title="CRUNCHY CORN : PURPLE"
+                    price={5000}
+                    image="./pd02.png"
+                    rating={3}
+                    />
+                </div>
+                <div className="prod_row">
+                    <Product 
+                    title="CRUNCHY CORN : PINK"
+                    price={5000}
+                    image="./pd03.png"
+                    rating={4}
+                    />
+                </div>
+                <div className="prod_row">
+                <Product 
+                    title="EDAMAME : SEA SALT"
+                    price={8000}
+                    image="./pd04.png"
+                    rating={2}
+                    />
+                </div>
+                <div className="prod_row">
+                <Product 
+                    title="MIGHTY LIL' LENTILS"
+                    price={7000}
+                    image="./pd05.png"
+                    rating={3}
+                    />
                 </div>
             </div>
         </div>

@@ -64,3 +64,15 @@
     width: 100%;
     border-radius: 30px;
 }
+
+.prod_area {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.prod_row {
+    margin-bottom: 48px;
+}
