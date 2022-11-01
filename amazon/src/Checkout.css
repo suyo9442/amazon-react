@@ -1,0 +1,33 @@
+.checkout {
+    padding: 24px;
+    text-align: center;
+}
+
+.checkout_left {
+
+}
+
+
+.checkout_ad {
+    height: 260px;
+    margin-bottom: 24px;
+    background: rgb(84, 84, 84);
+}
+
+.checkout_ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.checkout_adCell {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
