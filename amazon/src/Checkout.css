@@ -3,22 +3,19 @@
     text-align: center;
 }
 
-.checkout_left {
-
+.checkout_title {
+    font-size: 48px;
+    margin: 32px 0;
 }
-
 
 .checkout_ad {
     height: 260px;
-    margin-bottom: 24px;
     background: rgb(84, 84, 84);
-}
-
-.checkout_ad {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin-bottom: 24px;
 }
 
 .checkout_adCell {

@@ -4,7 +4,7 @@ import './Checkout.css';
 function Checkout() {
     return (
         <div className="checkout">
-            <h2>CART LIST</h2>
+            <h2 className="checkout_title">CART LIST</h2>
 
             <div className="checkout_ad">
                 <div className="checkout_adCell">
@@ -21,7 +21,7 @@ function Checkout() {
             </div>
 
             <div className="checkout_list">
-                <h2 className="checkout_title">장바구니 목록</h2>
+                
             </div>
         </div>
     );
